@@ -1,4 +1,6 @@
-# TODO
+def split_case(palabras):
+    return ([p for p in palabras if p.islower()],
+            [p for p in palabras if p.isupper()])
 
 
 # DO NOT TOUCH THE CODE BELOW
