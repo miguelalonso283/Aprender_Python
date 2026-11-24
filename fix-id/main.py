@@ -1,5 +1,5 @@
 def run(db: list) -> list:
-    # TODO
+    fixed_db = [{**r, 'id': i} for i, r in enumerate(db, start=1)]
     return fixed_db
 
 
